@@ -1,0 +1,53 @@
+/* #trafficLight1, #trafficLight2, #trafficLight3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+  } */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(39, 109, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  height: 600px;
+  width: 210px;
+  background-color: rgb(54, 53, 53);
+  border-radius: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0;
+  flex-direction: column;
+}
+
+.circle {
+  background-color: black;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  }
+
+  .circle.red {
+    background-color: brown;
+    box-shadow: 0 0 75px brown;
+  }
+
+  .circle.yellow {
+    background-color: rgb(172, 223, 19);
+    box-shadow: 0 0 75px  rgb(172, 223, 19);
+  }
+
+  .circle.green {
+    background-color: rgb(16, 222, 43);
+    box-shadow: 0 0 75px rgb(16, 222, 43);
+  }
+

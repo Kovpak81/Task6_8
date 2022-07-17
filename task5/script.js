@@ -9,5 +9,3 @@ function LOPO() {
   document.querySelector('#duplicateField').textContent = "";
   document.querySelector('#input').value = "";
   };
-
-
