@@ -1,12 +1,13 @@
-// const textInput = document.querySelector('#textInput');
+function POLO() {
+  let input_taker = document.querySelector('#input').value;
+  document.querySelector('#duplicateField').textContent = input_taker;
+  };
+    
+function LOPO() {
+  subOn = document.querySelector('#duplicateField').textContent;
+  console.log(subOn);
+  document.querySelector('#duplicateField').textContent = "";
+  document.querySelector('#input').value = "";
+  };
 
-// console.log(textInput.value);
-
-
-const duplicateField = document.querySelector('#duplicateField');
-
-duplicateField.textContent = textInput;
-
-let input = document.querySelector('input');
-console.log(input.value);
 

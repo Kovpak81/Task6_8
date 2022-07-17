@@ -5,12 +5,13 @@
     <title>JS-Start. 5 задача</title>
 </head>
 <body>
-<form action="#">
+<!-- В привыеденном примере указан устаревший метод отправки данных на туже страницу, которая содержит форму - action="#". Поэтому удаляю её -->
+<form name="forma">
     <label>
         Текст
-        <input type="text" placeholder="Введите текст"  id="textInput">
+        <input type="text" placeholder="Введите текст" id="input" onkeyup="POLO()">
     </label>
-    <button type="submit">
+    <button type="submit" id="submit" onmouseup="LOPO()">
         Вывести текст в консоль и удалить из формы
     </button>
 </form>
