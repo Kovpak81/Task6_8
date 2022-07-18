@@ -28,20 +28,20 @@ body{
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  }
+}
 
-  .circle.red {
-    background-color: red;
-    box-shadow: 0 0 75px red;
-  }
+.circle.red {
+  background-color: red;
+  box-shadow: 0 0 75px red;
+}
 
-  .circle.yellow {
-    background-color: rgb(172, 223, 19);
-    box-shadow: 0 0 75px  rgb(172, 223, 19);
-  }
+.circle.yellow {
+  background-color: rgb(172, 223, 19);
+  box-shadow: 0 0 75px  rgb(172, 223, 19);
+}
 
-  .circle.green {
-    background-color: rgb(16, 222, 43);
-    box-shadow: 0 0 75px rgb(16, 222, 43);
-  }
+.circle.green {
+  background-color: rgb(16, 222, 43);
+  box-shadow: 0 0 75px rgb(16, 222, 43);
+}
 
