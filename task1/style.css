@@ -1,15 +1,9 @@
-#trafficLight {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: black;
-  }
-
-  body{
+body{
     background-color: rgb(39, 109, 109);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     min-height: 100vh;
+    font-size: 35px;
   }
